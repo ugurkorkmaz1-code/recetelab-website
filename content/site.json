@@ -1,0 +1,323 @@
+{
+  "tr": {
+    "title": "ReçeteLab | Yapı Kimyasallarında Reçete ve Üretim Danışmanlığı",
+    "description": "ReçeteLab; yapı kimyasallarında yeni ürün geliştirme, reçete optimizasyonu, maliyet düşürme ve üretim sorunlarının çözümü için teknik danışmanlık sunar.",
+    "nav": [
+      "Hizmetler",
+      "Ürün Grupları",
+      "Süreç",
+      "Neden Biz?",
+      "İletişim"
+    ],
+    "kicker": "Yapı Kimyasalları • Reçete • Üretim • Optimizasyon",
+    "h1": "Performansı artırın.|Maliyeti düşürün.|Üretimi güçlendirin.",
+    "hero": "ReçeteLab, yapı kimyasalları üreticileri için yalnızca formül değil; sahada çalışan, üretilebilir ve ticari karşılığı olan çözümler geliştirir.",
+    "primary": "Projenizi Anlatın",
+    "secondary": "Nasıl Çalışıyoruz?",
+    "metrics": [
+      [
+        "Firmaya özel",
+        "Hazır reçete değil"
+      ],
+      [
+        "Gizlilik odaklı",
+        "Bilginiz size özel"
+      ],
+      [
+        "Üretim uyumlu",
+        "Laboratuvardan sahaya"
+      ]
+    ],
+    "services_title": "Teknik sorunları ticari avantaja dönüştürün",
+    "services": [
+      [
+        "Yeni Ürün Geliştirme",
+        "Fikir aşamasından pilot üretime kadar yeni ürün reçetesi ve proses desteği."
+      ],
+      [
+        "Reçete Optimizasyonu",
+        "Mevcut ürününüzde performans, stabilite ve uygulama kalitesini geliştirme."
+      ],
+      [
+        "Maliyet Mühendisliği",
+        "Kaliteyi bozmadan daha verimli hammadde ve dozaj kombinasyonları."
+      ],
+      [
+        "Üretim Sorunları",
+        "Topaklanma, çatlama, düşük aderans, priz ve kıvam sorunlarına müdahale."
+      ]
+    ],
+    "products_title": "Yapı kimyasallarının kritik ürünlerinde uzman yaklaşım",
+    "products": [
+      [
+        "Seramik Yapıştırıcıları",
+        "C1, C2, T, E, S1 ve S2 sınıflarında performans odaklı çözümler."
+      ],
+      [
+        "Derz Dolguları",
+        "Renk stabilitesi, su iticilik, işlenebilirlik ve dayanım optimizasyonu."
+      ],
+      [
+        "Su Yalıtım Sistemleri",
+        "Çimento esaslı, akrilik ve hibrit sistemlerde ürün geliştirme."
+      ],
+      [
+        "Şap, Harç ve Kaplamalar",
+        "Akış, priz, yüzey kalitesi ve mekanik dayanım odaklı formülasyon."
+      ]
+    ],
+    "process_title": "Net, ölçülebilir ve kontrollü ilerleme",
+    "process": [
+      [
+        "İhtiyaç Analizi",
+        "Ürün hedefleri, hammaddeler, üretim altyapısı ve maliyet sınırları belirlenir."
+      ],
+      [
+        "Formülasyon",
+        "Laboratuvar ölçeğinde alternatif reçeteler geliştirilir ve performans testleri yapılır."
+      ],
+      [
+        "Pilot Üretim",
+        "Seçilen reçete üretim hattına taşınır, proses ayarları doğrulanır."
+      ],
+      [
+        "Devreye Alma",
+        "Son reçete ve üretim notları teslim edilir, saha geri bildirimleriyle süreç tamamlanır."
+      ]
+    ],
+    "why_title": "Çünkü her fabrikanın reçetesi kendine özeldir.",
+    "why": [
+      "Gizlilik esaslı çalışma",
+      "Firmaya özel formülasyon",
+      "Üretilebilir ve uygulanabilir sonuç",
+      "Maliyet–performans dengesi",
+      "Üretim sonrası teknik destek"
+    ],
+    "contact_title": "Ürününüzü anlatın, birlikte güçlendirelim.",
+    "contact_text": "Mevcut bir reçeteniz, yeni ürün fikriniz veya çözemediğiniz bir üretim sorununuz varsa kısa bilgileri bırakın.",
+    "labels": [
+      "Ad Soyad",
+      "Firma",
+      "Telefon",
+      "E-posta",
+      "İlgilendiğiniz hizmet",
+      "Projeniz"
+    ],
+    "send": "WhatsApp'tan Gönder",
+    "footer": "Yapı kimyasallarında reçete geliştirme, üretim ve optimizasyon danışmanlığı."
+  },
+  "en": {
+    "title": "ReçeteLab | Construction Chemicals Formulation Consulting",
+    "description": "ReçeteLab provides product development, formulation optimization, cost engineering and production troubleshooting for construction chemical manufacturers.",
+    "nav": [
+      "Services",
+      "Product Groups",
+      "Process",
+      "Why Us?",
+      "Contact"
+    ],
+    "kicker": "Construction Chemicals • Formulation • Production • Optimization",
+    "h1": "Increase performance.|Reduce cost.|Strengthen production.",
+    "hero": "ReçeteLab develops more than formulas for construction chemical manufacturers: practical, scalable and commercially viable solutions that work in real production.",
+    "primary": "Tell Us About Your Project",
+    "secondary": "How We Work",
+    "metrics": [
+      [
+        "Tailor-made",
+        "No generic formulas"
+      ],
+      [
+        "Confidential",
+        "Your know-how stays yours"
+      ],
+      [
+        "Production-ready",
+        "From lab to plant"
+      ]
+    ],
+    "services_title": "Turn technical problems into commercial advantage",
+    "services": [
+      [
+        "New Product Development",
+        "Formulation and process support from concept to pilot production."
+      ],
+      [
+        "Formula Optimization",
+        "Improve performance, stability and application quality of existing products."
+      ],
+      [
+        "Cost Engineering",
+        "Smarter raw-material and dosage combinations without sacrificing quality."
+      ],
+      [
+        "Production Troubleshooting",
+        "Technical solutions for lumping, cracking, low adhesion, setting and rheology issues."
+      ]
+    ],
+    "products_title": "Specialized expertise in critical construction chemical products",
+    "products": [
+      [
+        "Tile Adhesives",
+        "Performance-focused solutions for C1, C2, T, E, S1 and S2 classes."
+      ],
+      [
+        "Tile Grouts",
+        "Optimization of color stability, water repellency, workability and strength."
+      ],
+      [
+        "Waterproofing Systems",
+        "Development of cementitious, acrylic and hybrid waterproofing products."
+      ],
+      [
+        "Screeds, Mortars & Coatings",
+        "Formulations focused on flow, setting, surface quality and mechanical strength."
+      ]
+    ],
+    "process_title": "Clear, measurable and controlled progress",
+    "process": [
+      [
+        "Needs Analysis",
+        "We define product goals, raw materials, plant capabilities and cost limits."
+      ],
+      [
+        "Formulation",
+        "Alternative formulas are developed and tested at laboratory scale."
+      ],
+      [
+        "Pilot Production",
+        "The selected formula is transferred to the production line and process settings are validated."
+      ],
+      [
+        "Commissioning",
+        "The final formula and production notes are delivered and refined with field feedback."
+      ]
+    ],
+    "why_title": "Because every factory needs its own formula.",
+    "why": [
+      "Confidential working model",
+      "Company-specific formulation",
+      "Practical and scalable results",
+      "Cost–performance balance",
+      "Post-production technical support"
+    ],
+    "contact_title": "Tell us about your product. Let’s make it stronger.",
+    "contact_text": "Share a few details about your current formula, new product idea or unresolved production issue.",
+    "labels": [
+      "Full Name",
+      "Company",
+      "Phone",
+      "Email",
+      "Service",
+      "Project Details"
+    ],
+    "send": "Send via WhatsApp",
+    "footer": "Formulation, production and optimization consulting for construction chemicals."
+  },
+  "ar": {
+    "title": "ReçeteLab | استشارات تركيبات كيميائيات البناء",
+    "description": "تقدم ReçeteLab خدمات تطوير المنتجات وتحسين التركيبات وخفض التكلفة وحل مشاكل الإنتاج لمصنعي كيميائيات البناء.",
+    "nav": [
+      "الخدمات",
+      "مجموعات المنتجات",
+      "آلية العمل",
+      "لماذا نحن؟",
+      "اتصل بنا"
+    ],
+    "kicker": "كيميائيات البناء • التركيبات • الإنتاج • التحسين",
+    "h1": "ارفع الأداء.|خفّض التكلفة.|قوِّ الإنتاج.",
+    "hero": "تطوّر ReçeteLab لمصنعي كيميائيات البناء حلولاً عملية وقابلة للتصنيع وذات قيمة تجارية، وليس مجرد تركيبات نظرية.",
+    "primary": "أخبرنا عن مشروعك",
+    "secondary": "كيف نعمل؟",
+    "metrics": [
+      [
+        "حلول مخصصة",
+        "ليست تركيبات عامة"
+      ],
+      [
+        "سرية تامة",
+        "معرفتك تبقى ملكك"
+      ],
+      [
+        "جاهزة للإنتاج",
+        "من المختبر إلى المصنع"
+      ]
+    ],
+    "services_title": "حوّل المشكلات التقنية إلى ميزة تجارية",
+    "services": [
+      [
+        "تطوير منتجات جديدة",
+        "دعم في التركيب والعملية من الفكرة حتى الإنتاج التجريبي."
+      ],
+      [
+        "تحسين التركيبات",
+        "رفع الأداء والثبات وجودة التطبيق في المنتجات الحالية."
+      ],
+      [
+        "هندسة التكلفة",
+        "اختيار مواد خام ونسب أكثر كفاءة دون التضحية بالجودة."
+      ],
+      [
+        "حل مشاكل الإنتاج",
+        "حلول تقنية للتكتل والتشقق وضعف الالتصاق ومشاكل الشك والقوام."
+      ]
+    ],
+    "products_title": "خبرة متخصصة في أهم منتجات كيميائيات البناء",
+    "products": [
+      [
+        "لواصق البلاط",
+        "حلول موجهة للأداء لفئات C1 وC2 وT وE وS1 وS2."
+      ],
+      [
+        "حشوات الفواصل",
+        "تحسين ثبات اللون ومقاومة الماء وقابلية التشغيل والمتانة."
+      ],
+      [
+        "أنظمة العزل المائي",
+        "تطوير منتجات إسمنتية وأكريليكية وهجينة للعزل المائي."
+      ],
+      [
+        "السكريد والمونة والطلاءات",
+        "تركيبات تركز على الانسياب والشك وجودة السطح والمقاومة الميكانيكية."
+      ]
+    ],
+    "process_title": "تقدم واضح وقابل للقياس وتحت السيطرة",
+    "process": [
+      [
+        "تحليل الاحتياج",
+        "نحدد أهداف المنتج والمواد الخام وقدرات المصنع وحدود التكلفة."
+      ],
+      [
+        "تطوير التركيبة",
+        "نطور بدائل متعددة ونختبرها على نطاق المختبر."
+      ],
+      [
+        "الإنتاج التجريبي",
+        "ننقل التركيبة المختارة إلى خط الإنتاج ونتحقق من إعدادات العملية."
+      ],
+      [
+        "بدء التشغيل",
+        "نسلم التركيبة النهائية وملاحظات الإنتاج ونستكمل التحسين وفق نتائج الميدان."
+      ]
+    ],
+    "why_title": "لأن لكل مصنع تركيبته الخاصة.",
+    "why": [
+      "العمل وفق مبدأ السرية",
+      "تركيبات مخصصة للشركة",
+      "نتائج عملية وقابلة للتوسع",
+      "توازن التكلفة والأداء",
+      "دعم فني بعد الإنتاج"
+    ],
+    "contact_title": "أخبرنا عن منتجك، ولنطوره معاً.",
+    "contact_text": "شاركنا بعض المعلومات عن تركيبتك الحالية أو فكرة منتج جديد أو مشكلة إنتاج لم تُحل بعد.",
+    "labels": [
+      "الاسم الكامل",
+      "الشركة",
+      "الهاتف",
+      "البريد الإلكتروني",
+      "الخدمة المطلوبة",
+      "تفاصيل المشروع"
+    ],
+    "send": "إرسال عبر واتساب",
+    "footer": "استشارات تطوير التركيبات والإنتاج والتحسين في كيميائيات البناء."
+  }
+}
