@@ -9,3 +9,9 @@
 [dir=rtl] .hero-shade{background:linear-gradient(-90deg,rgba(3,8,15,.88),rgba(3,8,15,.48) 50%,rgba(3,8,15,.12)),linear-gradient(0deg,rgba(5,11,20,.96),transparent 34%)}[dir=rtl] .cinema-status{left:auto;right:22px}
 @media(max-width:620px){.hero-video{opacity:.58;filter:saturate(1.25) contrast(1.08) brightness(1.04)}.hero-shade{background:linear-gradient(180deg,rgba(3,8,15,.50),rgba(3,8,15,.76) 58%,rgba(5,11,20,.98))}.cinema-status{left:14px;bottom:14px;padding:8px 10px;font-size:11px}.hero::before{opacity:.65}.hero::after{opacity:.45}}
 @media(prefers-reduced-motion:reduce){.hero::before,.hero::after{animation:none}.hero-video{display:block!important;animation:none;transform:none}.cinema-status{display:none}.hero-video,#labCanvas{opacity:.46}}
+
+/* Final visible cinematic background */
+.hero-video{opacity:.92!important;filter:saturate(1.5) contrast(1.16) brightness(1.2)!important}
+.hero-shade{background:linear-gradient(90deg,rgba(3,8,15,.76),rgba(3,8,15,.32) 50%,rgba(3,8,15,.06)),linear-gradient(0deg,rgba(5,11,20,.82),transparent 32%)!important}
+[dir=rtl] .hero-shade{background:linear-gradient(-90deg,rgba(3,8,15,.76),rgba(3,8,15,.32) 50%,rgba(3,8,15,.06)),linear-gradient(0deg,rgba(5,11,20,.82),transparent 32%)!important}
+@media(max-width:620px){.hero-video{opacity:.76!important}.hero-shade{background:linear-gradient(180deg,rgba(3,8,15,.34),rgba(3,8,15,.66) 58%,rgba(5,11,20,.92))!important}}
