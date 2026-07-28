@@ -1,12 +1,21 @@
-REÇETELAB PREMIUM V3 — YAYINA HAZIR PAKET
+RECETELAB ULTIMATE EDITION — YAYIN PAKETİ
 
-İletişim bilgileri:
-Telefon/WhatsApp: +90 553 771 8776
-E-posta: info@recetelab.com
-Adres: Samsun / TÜRKİYE
-Instagram: https://instagram.com/recete.lab
+1. ZIP'i bilgisayarınızda açın. İçindeki dosya ve klasörleri GitHub deponuzun ana dizinine yükleyin.
+2. Cloudflare Pages projesinde Build command boş, Output directory / olarak kalabilir.
+3. Ziyaretçi sayacı için Cloudflare KV oluşturun ve Pages > Settings > Functions > KV bindings bölümünde VISITOR_STATS adıyla bağlayın.
+4. Yönetim istatistik ekranı: /admin/visitors.html
+5. functions/api/stats.js içindeki ADMIN_PASSWORD değerini yayınlamadan önce değiştirin.
+6. Alan adı recetelab.com değilse tr/en/ar sayfalarındaki canonical, hreflang ve og:url adreslerini değiştirin.
 
-Yükleme:
-ZIP dosyasını bilgisayarınızda ayıklayın. GitHub deposuna ZIP dosyasını değil, ayıklanan klasörün içindeki index.html, tr, en, ar, assets ve diğer dosyaları yükleyin.
+DAHİL OLANLAR
+- Tam ekran sinematik video açılış
+- Laboratuvar/molekül animasyonları
+- Etkileşimli hizmet bölgeleri haritası
+- Reçete optimizasyonu simülasyonu
+- Tarayıcı içinde akıllı ön değerlendirme ve WhatsApp aktarımı
+- Türkçe, İngilizce ve Arapça içerik
+- Responsive tasarım, reduced-motion ve mobil performans düzenlemeleri
+- Canonical, hreflang, Open Graph, JSON-LD, sitemap ve robots
+- Gizli ziyaretçi istatistik sistemi
 
-Not: İletişim formu WhatsApp üzerinden çalışır. E-posta form teslimatı için Cloudflare Pages yayını tamamlandıktan sonra ücretsiz bir form servisi ayrıca bağlanabilir.
+NOT: Ön değerlendirme bölümü bir yapay zekâ API'sine veri göndermez. Kurallı ve güvenli bir ilk yönlendirme üretir; nihai teknik karar uzman incelemesi gerektirir.
