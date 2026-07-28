@@ -20,5 +20,9 @@ DAHİL OLANLAR
 
 NOT: Ön değerlendirme bölümü bir yapay zekâ API'sine veri göndermez. Kurallı ve güvenli bir ilk yönlendirme üretir; nihai teknik karar uzman incelemesi gerektirir.
 
-
-
+ULTIMATE CINEMATIC PATCH
+- Hero video visibility increased and dark overlay reduced.
+- Added animated laboratory glows and stronger molecule canvas visibility.
+- Added a small playback status/control badge to the hero section.
+- Added autoplay recovery for browsers that pause background video.
+- Mobile contrast and performance settings were preserved.
