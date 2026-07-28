@@ -19,3 +19,4 @@ DAHİL OLANLAR
 - Gizli ziyaretçi istatistik sistemi
 
 NOT: Ön değerlendirme bölümü bir yapay zekâ API'sine veri göndermez. Kurallı ve güvenli bir ilk yönlendirme üretir; nihai teknik karar uzman incelemesi gerektirir.
+
