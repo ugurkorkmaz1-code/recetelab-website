@@ -1,0 +1,21 @@
+REÇETELAB — SEO PACK 1.2 / PERFORMANS VE CORE WEB VITALS
+
+UYGULANAN İYİLEŞTİRMELER
+1. Ana kahraman görseli tarayıcıya erken bildirildi (preload + fetchpriority=high).
+2. Logo görsellerine sabit genişlik/yükseklik eklendi; olası yerleşim kaymaları azaltıldı.
+3. Ekran altındaki ağır bölümlere content-visibility ve contain-intrinsic-size eklendi.
+4. Mobilde maliyetli backdrop-filter efektleri devre dışı bırakıldı.
+5. Kullanılmayan eski canvas ve video kurtarma JavaScript kodları kaldırıldı.
+6. Scroll işlemi requestAnimationFrame ile sınırlandı.
+7. Ziyaretçi sayacı ilk renderı engellemeyecek biçimde idle zamanına ertelendi.
+8. CSS/JS varlık sürümleri yenilendi ve statik varlık önbellek başlıkları düzenlendi.
+9. Form alanlarına tarayıcı otomatik tamamlama ipuçları eklendi.
+10. Türkçe, İngilizce ve Arapça sayfalar aynı performans mimarisine getirildi.
+
+HEDEF METRİKLER
+- LCP: 2,5 saniye veya altı
+- INP: 200 ms altı
+- CLS: 0,1 altı
+
+NOT
+Gerçek sonuç cihaz, bağlantı, Cloudflare edge konumu ve saha trafiğine göre değişir. Yükleme sonrası PageSpeed Insights ve Chrome Lighthouse ile ölçülmelidir.

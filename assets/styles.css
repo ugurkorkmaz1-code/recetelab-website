@@ -123,3 +123,18 @@
 .assessment .split{align-items:start}.assessment .section-head>p{max-width:650px}.assessment-benefits{display:grid;gap:12px;margin-top:28px}.assessment-benefit{display:grid;grid-template-columns:46px 1fr;gap:14px;align-items:start;padding:15px 16px;border:1px solid rgba(255,255,255,.12);border-radius:16px;background:linear-gradient(135deg,rgba(255,255,255,.075),rgba(255,255,255,.025));box-shadow:inset 0 1px rgba(255,255,255,.05)}.assessment-benefit-icon{width:46px;height:46px;display:grid;place-items:center;border-radius:13px;background:rgba(255,122,26,.13);border:1px solid rgba(255,122,26,.35);color:#ff9a52;font-size:21px;font-weight:900}.assessment-benefit h3{margin:1px 0 5px;font-size:16px;color:#fff}.assessment-benefit p{margin:0;color:#aebcd0;font-size:14px;line-height:1.55}.assessment-promise{margin:18px 0 0!important;padding:14px 16px;border-inline-start:3px solid var(--orange);border-radius:0 12px 12px 0;background:rgba(255,122,26,.08);color:#e5edf7!important;font-size:14px!important;line-height:1.55!important}.assessment-card{position:sticky;top:105px}.assessment-card:before{content:"RECETELAB / TECHNICAL INTAKE";display:block;margin-bottom:22px;color:var(--orange);font-size:11px;font-weight:900;letter-spacing:.15em}.assessment-card .primary{width:100%;min-height:52px}.assessment-card .privacy{padding-top:12px;border-top:1px solid #e7ebf0;line-height:1.5}
 @media(max-width:950px){.assessment-card{position:static}.assessment-benefits{grid-template-columns:1fr 1fr}.assessment-benefit:last-child{grid-column:1/-1}}
 @media(max-width:620px){.assessment-benefits{grid-template-columns:1fr}.assessment-benefit:last-child{grid-column:auto}.assessment-benefit{padding:14px}.assessment-benefit p{font-size:13px}}
+
+/* SEO PACK 1.2 PERFORMANCE */
+.hero-visual{background-image:url('./hero-lab-premium.webp?v=performance-1');will-change:transform}
+#optimizer,#regions,#assessment,#contact{content-visibility:auto;contain-intrinsic-size:auto 900px}
+.service-media{aspect-ratio:8/5;overflow:hidden;background:#e9eef4}
+.service-media img{aspect-ratio:8/5}
+img{max-width:100%}
+@media(max-width:950px){
+  .header.scrolled,.formula-console{backdrop-filter:none;-webkit-backdrop-filter:none}
+  .hero-visual{will-change:auto}
+}
+@media(max-width:620px){
+  #optimizer,#regions,#assessment,#contact{contain-intrinsic-size:auto 1100px}
+  .service-card:hover,.btn:hover{transform:none}
+}
