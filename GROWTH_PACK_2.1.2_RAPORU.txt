@@ -1,0 +1,11 @@
+REÇETELAB — GROWTH PACK 2.1.2
+
+- 8 uzmanlık alanı × 3 dil = 24 indekslenebilir landing page.
+- Türkçe, İngilizce ve Arapça Bilgi Merkezi hub sayfaları.
+- Ana sayfadaki hizmet ve uzmanlık kartlarından gerçek iç bağlantılar.
+- Her uzmanlık sayfasında breadcrumb, related expertise ve değerlendirme CTA.
+- Canonical, hreflang, Open Graph, Twitter Card, Service ve Breadcrumb JSON-LD.
+- Sitemap 30 URL ile güncellendi.
+- Mobil ve RTL uyumlu tasarım.
+
+Tüm JSON-LD blokları, iç bağlantı hedefleri ve ZIP bütünlüğü otomatik test edilmiştir.
