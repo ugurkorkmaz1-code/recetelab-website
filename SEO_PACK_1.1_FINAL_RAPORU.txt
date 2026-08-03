@@ -1,0 +1,17 @@
+REÇETELAB SEO PACK 1.1 — FINAL
+
+Tamamlananlar:
+- TR / EN / AR yapılandırılmış veriler: 0 hata, 0 uyarı doğrulama hedefi
+- Ana domain dahil Open Graph meta etiketleri
+- og:site_name eklendi
+- Sosyal kart açıklamaları önerilen uzunluğa kısaltıldı
+- og:locale ve alternatif diller eklendi
+- Twitter/X summary_large_image, başlık, açıklama, görsel ve alt metin eklendi
+- Ana yönlendirme sayfasına title, description, canonical, hreflang ve sosyal kart verileri eklendi
+- Bilinmeyen sosyal medya kullanıcı adı, çalışma saati veya sokak adresi uydurulmadı
+
+Test adresleri:
+https://recetelab.com/
+https://recetelab.com/tr/
+https://recetelab.com/en/
+https://recetelab.com/ar/
