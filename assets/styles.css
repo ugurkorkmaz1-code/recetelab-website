@@ -15,3 +15,24 @@
 .hero-shade{background:linear-gradient(90deg,rgba(3,8,15,.76),rgba(3,8,15,.32) 50%,rgba(3,8,15,.06)),linear-gradient(0deg,rgba(5,11,20,.82),transparent 32%)!important}
 [dir=rtl] .hero-shade{background:linear-gradient(-90deg,rgba(3,8,15,.76),rgba(3,8,15,.32) 50%,rgba(3,8,15,.06)),linear-gradient(0deg,rgba(5,11,20,.82),transparent 32%)!important}
 @media(max-width:620px){.hero-video{opacity:.76!important}.hero-shade{background:linear-gradient(180deg,rgba(3,8,15,.34),rgba(3,8,15,.66) 58%,rgba(5,11,20,.92))!important}}
+
+/* ReçeteLab interactive world map — final */
+.map-wrap{position:relative;padding:0;background:#07111f;border:1px solid #18314e;overflow:hidden;box-shadow:0 30px 80px rgba(5,11,20,.22)}
+.world-map{display:block;width:100%;height:auto;min-width:0!important}
+.map-grid path{fill:none;stroke:#16304d;stroke-width:1;opacity:.48;stroke-dasharray:3 8}
+.continents .land{fill:#152a43;stroke:#315376;stroke-width:2;stroke-linejoin:round;transition:fill .25s,stroke .25s}
+.continents .land-muted{fill:#112239;opacity:.8}.continents .accent-land{fill:#193653;stroke:#4b7198}
+.map-labels text{fill:#65809d;font-size:11px;letter-spacing:2px;font-weight:800;text-anchor:middle}
+.routes path{fill:none;stroke:#ff7a1a;stroke-width:1.6;stroke-dasharray:5 8;opacity:.45;animation:routeDash 9s linear infinite}
+.region-point{cursor:pointer;outline:none;transform-box:fill-box;transform-origin:center}
+.region-point .pulse{fill:#ff7a1a;opacity:.14;transform-origin:center;animation:mapPulse 2.4s ease-out infinite}
+.region-point .dot{fill:#ff7a1a;stroke:#fff;stroke-width:2;filter:url(#pointGlow);transition:transform .2s,fill .2s}
+.region-point text{fill:#fff;font-size:12px;text-anchor:middle;font-weight:900;paint-order:stroke;stroke:#07111f;stroke-width:4px;stroke-linejoin:round}
+.region-point:hover .dot,.region-point:focus .dot,.region-point.active .dot{transform:scale(1.45);fill:#42a5ff}
+.region-point:hover .pulse,.region-point:focus .pulse,.region-point.active .pulse{fill:#42a5ff;opacity:.25}
+.map-legend{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 18px;background:#0b192a;border-top:1px solid #18314e;color:#a9b9ca;font-size:12px}
+.map-legend span{display:flex;align-items:center;gap:8px}.map-legend i{width:9px;height:9px;border-radius:50%;background:#ff7a1a;box-shadow:0 0 14px #ff7a1a}.map-legend small{color:#65809d}
+@keyframes mapPulse{0%{transform:scale(.45);opacity:.45}75%,100%{transform:scale(1.25);opacity:0}}
+@keyframes routeDash{to{stroke-dashoffset:-130}}
+@media(max-width:620px){.map-wrap{overflow:hidden}.world-map{min-width:0!important}.map-labels{display:none}.map-legend{align-items:flex-start;flex-direction:column}.region-point text{font-size:15px}.region-point .dot{transform:scale(1.15)}}
+@media(prefers-reduced-motion:reduce){.region-point .pulse,.routes path{animation:none}}

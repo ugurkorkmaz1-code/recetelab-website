@@ -26,3 +26,5 @@ ULTIMATE CINEMATIC PATCH
 - Added a small playback status/control badge to the hero section.
 - Added autoplay recovery for browsers that pause background video.
 - Mobile contrast and performance settings were preserved.
+
+FINAL WORLD MAP FIX: recognizable continents, valid SVG interaction, keyboard support, cache-busting asset URLs.
