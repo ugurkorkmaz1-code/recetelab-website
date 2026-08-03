@@ -1,0 +1,40 @@
+REÇETELAB — SEO PACK 1.1 / YAPILANDIRILMIŞ VERİLER
+
+UYGULANAN DOSYALAR
+- /index.html
+- /tr/index.html
+- /en/index.html
+- /ar/index.html
+
+EKLENEN ŞEMA VARLIKLARI
+- ProfessionalService (ReçeteLab ana kuruluş varlığı)
+- ImageObject (kurumsal logo)
+- ContactPoint (telefon, e-posta ve çalışma dilleri)
+- PostalAddress (Samsun, Türkiye)
+- OfferCatalog (hizmet kataloğu)
+- Service (4 temel hizmet ayrı ayrı)
+- WebSite (domain düzeyi site adı ve yayıncı bağlantısı)
+- WebPage (her dil sayfası için yerelleştirilmiş sayfa varlığı)
+
+KURUMSAL BİLGİLER
+- Ad: ReçeteLab
+- Telefon: +90 553 771 8776
+- E-posta: info@recetelab.com
+- Konum: Samsun, Türkiye
+- Diller: Türkçe, İngilizce, Arapça
+
+TEKNİK NOTLAR
+- JSON-LD @graph yapısı kullanılmıştır.
+- Bütün varlıklar kalıcı @id değerleriyle birbirine bağlanmıştır.
+- Şemalarda yalnızca sayfada sunulan gerçek hizmetler ve kullanıcı tarafından verilen kurumsal bilgiler kullanılmıştır.
+- Sosyal medya URL'leri verilmediği için sameAs alanı bilinçli olarak eklenmemiştir.
+- Tam sokak adresi verilmediği için yalnızca şehir, bölge ve ülke belirtilmiştir.
+
+YÜKLEME SONRASI KONTROL
+1. Cloudflare deploy durumunun Success olmasını bekleyin.
+2. Google Rich Results Test ile /tr/, /en/ ve /ar/ adreslerini kontrol edin.
+3. Schema Markup Validator ile @graph içindeki tüm varlıkları doğrulayın.
+4. Google Search Console URL Denetimi ile ana sayfaların yeniden taranmasını isteyin.
+
+NOT
+Yapılandırılmış veri, arama motorlarının işletmeyi ve hizmetleri daha iyi anlamasına yardımcı olur; tek başına sıralama veya zengin sonuç garantisi vermez.

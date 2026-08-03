@@ -1,0 +1,7 @@
+index.html: OK
+tr/index.html: OK
+en/index.html: OK
+ar/index.html: OK
+JSON-LD syntax: OK
+Entity links: OK
+Service count: 4
