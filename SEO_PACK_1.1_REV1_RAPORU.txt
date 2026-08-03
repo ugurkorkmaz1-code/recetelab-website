@@ -1,0 +1,26 @@
+REÇETELAB — SEO PACK 1.1 REVİZYON 1
+
+GERÇEKTEN UYGULANAN DÜZELTMELER
+- Schema Validator uyarılarının kaynağı olan, desteklenmeyen availableLanguage alanları ProfessionalService ve Service kayıtlarından kaldırıldı.
+- Dil bilgisi kaybolmadı; Schema.org tarafından desteklenen ContactPoint ve ServiceChannel kayıtlarında tutuldu.
+- Telefon numarası E.164 biçimine çevrildi: +905537718776
+- E-posta değeri düz metin biçimine getirildi: info@recetelab.com
+- Her hizmet için geçerli bir ServiceChannel ve ilgili dil sayfasının serviceUrl değeri eklendi.
+- Bilinmeyen sokak adresi, çalışma saatleri, fiyat aralığı, sosyal medya hesabı veya koordinat uydurulmadı.
+
+DEĞİŞEN DOSYALAR
+- index.html
+- tr/index.html
+- en/index.html
+- ar/index.html
+
+YEREL DOĞRULAMALAR
+- Tüm JSON-LD blokları JSON olarak ayrıştırıldı.
+- HTML dosyaları yeniden okunarak script bloklarının korunduğu doğrulandı.
+- availableLanguage alanının yalnızca ContactPoint ve ServiceChannel türlerinde kaldığı kontrol edildi.
+- Kuruluş, hizmet kataloğu, WebSite ve WebPage @id bağlantıları korundu.
+
+CANLI TEST
+1. GitHub'a paketi yükleyin.
+2. Cloudflare deploy Success olduktan sonra https://validator.schema.org/ adresinde https://recetelab.com/tr/ test edin.
+3. Google Rich Results Test'te https://recetelab.com/tr/ adresini yeniden test edin.
