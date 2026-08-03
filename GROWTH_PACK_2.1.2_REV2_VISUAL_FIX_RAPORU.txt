@@ -1,0 +1,9 @@
+GROWTH PACK 2.1.2 REV2
+
+- İlgili uzmanlık bağlantılarındaki tekrar eden başlıklar düzeltildi.
+- Her bağlantı hedef sayfanın gerçek adını gösteriyor.
+- 8 uzmanlık alanı için konuya özel görseller eklendi.
+- Ana sayfa Uzmanlık Alanları kartları görselleştirildi.
+- Bilgi Merkezi kartları görselleştirildi.
+- Uzmanlık sayfalarındaki ilgili uzmanlık bağlantılarına küçük görseller eklendi.
+- TR/EN/AR sayfaları birlikte güncellendi.
