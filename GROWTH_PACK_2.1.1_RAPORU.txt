@@ -1,0 +1,23 @@
+GROWTH PACK 2.1.1 — KONU OTORİTESİ RAPORU
+
+Yapılanlar
+- TR / EN / AR ana sayfa mesajları formülasyon, drymix, üretim ve fabrika devreye alma ekseninde yeniden yazıldı.
+- Navigasyona Uzmanlık / Expertise / مجالات الخبرة bağlantısı eklendi.
+- Üç dilde sekiz konu kümesinden oluşan Uzmanlık Alanları bölümü eklendi.
+- Bölüm semantik section, h2, h3 ve açıklama yapısıyla oluşturuldu.
+- JSON-LD knowsAbout ve OfferCatalog görünür içerikle uyumlu sekiz uzmanlık alanına genişletildi.
+- Bölüm numaraları yeniden düzenlendi.
+- Mobil düzen, reduced-motion desteği ve mevcut performans optimizasyonları korundu.
+
+Konu kümeleri
+1. Formülasyon Mühendisliği
+2. Drymix Teknolojisi
+3. Çimento Esaslı Sistemler
+4. Su Yalıtımı ve Polimer Modifikasyon
+5. Üretim ve Proses Optimizasyonu
+6. Maliyet Mühendisliği
+7. Fabrika Kurulumu ve Devreye Alma
+8. Endüstriyel Ar-Ge ve Teknik Problem Çözümü
+
+Not
+Bu paket ayrı indekslenebilir uzmanlık sayfaları oluşturmaz. Bunlar GP 2.1.2 ve 2.1.3 aşamalarında iç bağlantı ve konu sayfalarına dönüştürülecektir.
