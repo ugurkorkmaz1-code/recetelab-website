@@ -1,0 +1,9 @@
+GROWTH PACK 2.2.1 — TRUST ARCHITECTURE
+
+- TR/EN/AR ana sayfalara Güven Mimarisi ve ReçeteLab Method bölümü eklendi.
+- 6 aşamalı teknik çalışma akışı oluşturuldu.
+- Gizlilik/NDA, kalite yaklaşımı ve üretilebilir sistem mesajları eklendi.
+- TR/EN/AR için ayrı metodoloji sayfaları oluşturuldu.
+- AboutPage ve Breadcrumb JSON-LD eklendi.
+- Navigasyon ve sitemap güncellendi.
+- Uydurma referans, sertifika, proje sayısı veya çalışma saati eklenmedi.
