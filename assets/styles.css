@@ -102,3 +102,13 @@
   [dir=rtl] .hero-visual{background-position:34% center;transform:scaleX(-1)}
 }
 @media(prefers-reduced-motion:reduce){.hero-visual{animation:none!important;transform:none!important}}
+
+/* Premium process panel — replaces the former product model dashboard */
+.process-console{animation:float 7s ease-in-out infinite}
+.process-emblem{display:flex;align-items:center;justify-content:center;gap:12px;margin:28px 0 20px;padding:18px;border-radius:18px;background:linear-gradient(135deg,rgba(66,165,255,.11),rgba(255,122,26,.09));border:1px solid rgba(255,255,255,.09)}
+.process-emblem strong{font-size:13px;letter-spacing:.13em;color:#eef7ff}.process-emblem i{font-style:normal;color:var(--orange);font-size:20px}
+.process-console h3{font-size:26px;margin:0 0 20px;letter-spacing:-.025em}
+.process-step{display:grid;grid-template-columns:38px 1fr;gap:13px;align-items:start;padding:13px 0;border-top:1px solid rgba(255,255,255,.09)}
+.process-step>b{display:grid;place-items:center;width:32px;height:32px;border-radius:10px;background:rgba(255,122,26,.14);color:var(--orange);font-size:12px}
+.process-step span,.process-step strong,.process-step small{display:block}.process-step strong{font-size:14px;margin-bottom:5px}.process-step small{font-size:12px;line-height:1.5;color:#91a2b8}
+@media(max-width:620px){.process-console h3{font-size:22px}.process-emblem{margin-top:20px}.process-step small{font-size:11px}}
