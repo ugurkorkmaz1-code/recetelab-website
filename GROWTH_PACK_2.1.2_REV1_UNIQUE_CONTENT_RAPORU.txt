@@ -1,0 +1,7 @@
+GROWTH PACK 2.1.2 REV1 — BENZERSİZ UZMANLIK İÇERİKLERİ
+
+- 8 uzmanlık alanının her biri için ayrı teknik kapsam yazıldı.
+- Türkçe, İngilizce ve Arapça toplam 24 sayfa benzersizleştirildi.
+- Her sayfada farklı: sorunlar, çalışma yöntemi, teslim çıktıları ve etiketler bulunur.
+- Meta açıklamaları ve Service JSON-LD içerikleri görünür metinle eşleştirildi.
+- Kopya şablon metinleri kaldırıldı.
