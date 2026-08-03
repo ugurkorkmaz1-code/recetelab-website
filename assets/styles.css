@@ -36,3 +36,69 @@
 @keyframes routeDash{to{stroke-dashoffset:-130}}
 @media(max-width:620px){.map-wrap{overflow:hidden}.world-map{min-width:0!important}.map-labels{display:none}.map-legend{align-items:flex-start;flex-direction:column}.region-point text{font-size:15px}.region-point .dot{transform:scale(1.15)}}
 @media(prefers-reduced-motion:reduce){.region-point .pulse,.routes path{animation:none}}
+
+
+/* Service cards with sector visuals */
+.service-card{padding:0;overflow:hidden;background:#fff;position:relative}
+.service-media{position:relative;aspect-ratio:16/10;overflow:hidden;background:#07111f}
+.service-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,rgba(5,11,20,.28));pointer-events:none}
+.service-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .65s var(--ease),filter .65s var(--ease);filter:saturate(.96) contrast(1.03)}
+.service-card:hover .service-media img{transform:scale(1.055);filter:saturate(1.12) contrast(1.06)}
+.service-card-body{padding:25px 28px 29px}
+.service-card-body>span{display:inline-flex;align-items:center;justify-content:center;min-width:38px;height:27px;padding:0 9px;margin-bottom:5px;border-radius:999px;background:rgba(255,122,26,.1);color:var(--orange);font-size:12px;font-weight:900}
+.service-card-body h3{margin:10px 0 8px}
+.service-card-body p{margin:0}
+@media(max-width:620px){.service-card-body{padding:22px}.service-media{aspect-ratio:16/9}}
+
+
+/* Premium visual refresh — realistic laboratory hero and custom service imagery */
+.hero-visual{
+  position:absolute;
+  inset:0;
+  z-index:0;
+  background-image:url('./hero-lab-premium.webp?v=2');
+  background-size:min(58vw,880px) auto;
+  background-repeat:no-repeat;
+  background-position:right 46%;
+  transform:scale(1.015);
+  filter:saturate(1.06) contrast(1.08) brightness(.92);
+  animation:premiumHeroDrift 18s ease-in-out infinite alternate;
+  will-change:transform;
+}
+[dir=rtl] .hero-visual{background-position:left 46%;transform:scale(1.015) scaleX(-1)}
+.hero-video,#labCanvas,.cinema-status{display:none!important}
+.hero::before,.hero::after{display:none!important}
+.hero-shade{
+  z-index:1!important;
+  background:
+    linear-gradient(90deg,rgba(3,8,15,.99) 0%,rgba(3,8,15,.94) 35%,rgba(3,8,15,.64) 58%,rgba(3,8,15,.18) 82%,rgba(3,8,15,.35) 100%),
+    linear-gradient(0deg,rgba(5,11,20,.98),transparent 36%)!important;
+}
+[dir=rtl] .hero-shade{
+  background:
+    linear-gradient(-90deg,rgba(3,8,15,.99) 0%,rgba(3,8,15,.94) 35%,rgba(3,8,15,.64) 58%,rgba(3,8,15,.18) 82%,rgba(3,8,15,.35) 100%),
+    linear-gradient(0deg,rgba(5,11,20,.98),transparent 36%)!important;
+}
+.formula-console{background:rgba(5,15,28,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.service-media{aspect-ratio:16/9;background:#091526}
+.service-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s var(--ease),filter .55s var(--ease);filter:saturate(1.04) contrast(1.03)}
+.service-card{box-shadow:0 18px 55px rgba(13,28,48,.10)}
+@keyframes premiumHeroDrift{
+  0%{transform:scale(1.015) translate3d(0,0,0)}
+  100%{transform:scale(1.055) translate3d(-.8%,.4%,0)}
+}
+[dir=rtl] .hero-visual{animation-name:premiumHeroDriftRtl}
+@keyframes premiumHeroDriftRtl{
+  0%{transform:scale(1.015) scaleX(-1) translate3d(0,0,0)}
+  100%{transform:scale(1.055) scaleX(-1) translate3d(.8%,.4%,0)}
+}
+@media(max-width:950px){
+  .hero-visual{background-size:cover;background-position:62% center;opacity:.68}
+  [dir=rtl] .hero-visual{background-position:38% center}
+  .hero-shade{background:linear-gradient(180deg,rgba(3,8,15,.72),rgba(3,8,15,.88) 54%,rgba(5,11,20,.99))!important}
+}
+@media(max-width:620px){
+  .hero-visual{background-position:66% center;opacity:.56;animation:none;transform:none}
+  [dir=rtl] .hero-visual{background-position:34% center;transform:scaleX(-1)}
+}
+@media(prefers-reduced-motion:reduce){.hero-visual{animation:none!important;transform:none!important}}

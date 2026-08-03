@@ -28,3 +28,6 @@ ULTIMATE CINEMATIC PATCH
 - Mobile contrast and performance settings were preserved.
 
 FINAL WORLD MAP FIX: recognizable continents, valid SVG interaction, keyboard support, cache-busting asset URLs.
+
+
+Görsel güncelleme: Girişte gerçekçi laboratuvar arka planı ve Hizmetler bölümünde ReçeteLab için özel hazırlanmış dört sektör görseli kullanılmıştır.
