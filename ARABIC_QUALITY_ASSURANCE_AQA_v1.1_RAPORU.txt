@@ -1,0 +1,44 @@
+ReçeteLab — Arabic Quality Assurance (AQA) v1.1
+Kapsam: Arapça ana sayfa, menü, hero, hizmetler, ana uzmanlık alanı, teknik yetkinlik, güven/metodoloji özeti, etkileşimli optimizasyon, bölgesel uyarlama, ön değerlendirme, iletişim, footer, meta/OG/Twitter ve ana sayfa JSON-LD.
+
+AMAÇ
+Arapça sürümü kelime kelime çeviri görünümünden çıkarıp Suudi Arabistan ve Körfez bölgesinde teknik/kurumsal olarak doğal okunan Modern Standart Arapçaya yaklaştırmak.
+
+YAPILAN BAŞLICA DÜZELTMELER
+- "الوصفات" gibi tarif/recipe çağrışımı yapan kullanım kaldırıldı; teknik bağlamda "التركيبات" standardize edildi.
+- Seramik ve karo yapıştırıcı terminolojisi "لواصق البلاط والسيراميك" şeklinde netleştirildi.
+- Derz/grout dili Körfez ve Suudi kullanımıyla daha uyumlu olacak şekilde "ترويبات الفواصل الإسمنتية (الجراوت)" olarak düzenlendi.
+- Self-levelling karşılığı "مواد التسوية الذاتية للأرضيات" olarak netleştirildi.
+- Repair mortar terminolojisi "مونة إصلاح الخرسانة" olarak standardize edildi.
+- Open time, slip, adhesion, workability ve setting-time ifadeleri teknik bağlama göre ayrıştırıldı: "الزمن المفتوح", "مقاومة الانزلاق", "قوة الالتصاق", "قابلية التشغيل/سهولة التطبيق", "زمن الشك".
+- Drymix dili "الخلطات الجافة" / "مصانع الخلط الجاف" biçiminde tutarlı hale getirildi.
+- Fabrika/pilot üretim metinleri kelime kelime çeviri hissinden çıkarılarak "الإنتاج التجريبي", "مواءمة خط الإنتاج", "الانتقال إلى النطاق الصناعي" gibi mühendislik diline çekildi.
+- NDA ifadesi "اتفاقية عدم الإفصاح (NDA)" biçiminde doğal kurumsal kullanıma çevrildi.
+- CTA'lar ve menü daha kısa, profesyonel ve doğal Arapça ile yeniden yazıldı.
+- Meta title, meta description, Open Graph ve Twitter metinleri Arapça arama niyetine göre yeniden düzenlendi.
+- JSON-LD ana şirket/sayfa açıklamaları Arapça ile senkronize edildi; ülke adları Arapçalaştırıldı.
+- Ana site içerik kaynağındaki (content/site.json) eski Arapça metinler de güncellendi; böylece yönetim/içerik güncellemesi sonrası eski çevirilerin geri gelme riski azaltıldı.
+- Bu aşamada Türkçe ve İngilizce sayfalara dokunulmadı.
+
+TERİM REFERANSLARI
+Terminoloji kontrolünde Körfez/Suudi pazarıyla ilişkili güncel sektör kullanımları karşılaştırıldı. Özellikle:
+- DCP Saudi Arabia: cementitious tile adhesive, open time ve slip terminolojisinin Arapça ürün kullanımı.
+  https://www.dcp-int.co.in/sa/ar/products/symfks-flks
+- Anqa Saudi Arabia: "مونة إصلاح الخرسانة", "لاصق أسمنتي" ve yerel ürün dili.
+  https://anqa.com.sa/مونة-إصلاح-الخرسانة/
+  https://anqa.com.sa/product/أنقى-فكس-c2tes1/
+- Suudi pazarı grout/tile-joint kullanımı: "ترويبة إسمنتية" / "جراوت".
+  https://anqa.com.sa/product/أنقى-جراوت-ct/
+- Sika GCC ve Mapei UAE ürün sınıflandırmaları, uygulama parametreleri ve cementitious systems/drymix bağlamı terminolojik karşılaştırma için kullanıldı.
+
+DOĞRULAMA
+- /ar/index.html lang="ar" ve dir="rtl" korunmuştur.
+- JSON-LD parse testi: geçti.
+- content/site.json JSON parse testi: geçti.
+- Eski/istenmeyen ana terimler (الوصفات, هجينة, أكريلي vb.) ana Arapça sayfada bulunmuyor.
+- Yerel asset bağlantı kontrolü: geçti.
+
+SONRAKİ AQA AŞAMALARI
+AQA v1.2: Arapça Methodology sayfası
+AQA v1.3: Arapça Expertise merkezi + 8 uzmanlık alt sayfası
+AQA v1.4: Arapça Knowledge Center ve son RTL/dil tutarlılığı denetimi
