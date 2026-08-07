@@ -1,0 +1,25 @@
+AQA v1.3 — Expertise / Arabic Localization
+
+Kapsam:
+- /ar/expertise/ ana sayfası
+- 8 Arapça uzmanlık alt sayfası
+- Meta title / description / Open Graph metinleri
+- JSON-LD açıklamaları (HTML içindeki aynı metinler üzerinden güncellendi)
+- CTA, breadcrumb, ilgili uzmanlık ve footer metinleri
+
+Başlıca terminoloji standardizasyonu:
+- tile adhesive -> لواصق البلاط / غراء البلاط bağlama göre
+- tile grout -> ترويبات فواصل البلاط الإسمنتية
+- self-levelling -> مونة التسوية الذاتية للأرضيات
+- repair mortar -> مونة إصلاح الخرسانة
+- drymix -> الخلطات الجافة / تقنيات الخلطات الجافة
+- cementitious waterproofing -> العزل المائي الإسمنتي المعدّل بالبوليمر
+
+Kapsam dışı uzmanlık iddiaları korunmadı:
+- Epoksi
+- Poliüretan
+- Hibrit sistemler
+- MS Polymer
+
+Dil yaklaşımı:
+Kelime kelime çeviri yerine Suudi Arabistan/Körfez yapı kimyasalları ve mühendislik sektöründe kullanılan kurumsal-teknik Arapça esas alındı.
