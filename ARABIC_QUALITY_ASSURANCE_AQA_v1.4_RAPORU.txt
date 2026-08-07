@@ -1,0 +1,24 @@
+AQA v1.4 — Arabic Knowledge Center
+
+Kapsam:
+- ar/knowledge-center/index.html
+- Arapça meta title / description / Open Graph / Twitter metinleri
+- CollectionPage JSON-LD Arapça açıklamaları
+- Menü, hero, içerik girişi, 8 bilgi/uzmanlık kartı, CTA ve footer
+
+Dil yaklaşımı:
+- Kelime kelime çeviri yerine Körfez/Suudi yapı kimyasalları sektöründe doğal kullanılan teknik ifadeler tercih edildi.
+- "لاصق البلاط" / "لواصق البلاط", "روبات البلاط", "مونة الإصلاح", "الخلطات الجافة", "الأنظمة الإسمنتية" ve "العزل المائي الإسمنتي" terminolojisi standardize edildi.
+- İngilizce "Knowledge Architecture" etiketi Arapça kurumsal ifadeyle değiştirildi.
+- CTA metinleri daha doğal teknik Arapça ile sadeleştirildi.
+
+Kaynak karşılaştırması:
+- DCP Saudi Arabia resmi Arapça ürün ve teknik sayfaları (lواصق وروبات البلاط, مونة إصلاح, مواد العزل vb.)
+- Arapça sektör terminolojisi, ReçeteLab'ın kapsam dışı tuttuğu epoksi/PU/hibrit/MS uzmanlık iddiaları eklenmeden uygulandı.
+
+Teknik kontroller:
+- JSON-LD parse: OK
+- RTL lang/dir: OK
+- 8 knowledge card: OK
+- Canonical/hreflang: korundu
+- Değişen dosya sayısı: 2 (HTML + rapor)
