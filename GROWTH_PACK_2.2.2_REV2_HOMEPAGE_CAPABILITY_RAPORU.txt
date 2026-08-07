@@ -1,0 +1,13 @@
+ReçeteLab Growth Pack 2.2.2 REV2 — Ana Sayfa Teknik Yetkinlik Düzeltmesi
+
+- Ana sayfadaki 04 / Teknik Yetkinlik bölümü baştan tasarlandı.
+- Eski düz metinli ve uzun blok yapı kaldırıldı.
+- Uzmanlık alanları görselli kartlara dönüştürüldü.
+- Problemler iki sütunlu teknik problem matrisi olarak düzenlendi.
+- Danışmanlık çıktıları ayrı premium kartlar halinde gösterildi.
+- Hizmet verilen üretici tipleri kompakt kartlarla düzenlendi.
+- Uzman notu koyu premium panel haline getirildi.
+- Bilgi Merkezi CTA alanı eklendi.
+- Türkçe, İngilizce ve Arapça ana sayfalar eş zamanlı güncellendi.
+- Mobil ve tablet responsive stilleri eklendi.
+- Uzmanlık sayfasındaki premium tasarım korunmuştur.
