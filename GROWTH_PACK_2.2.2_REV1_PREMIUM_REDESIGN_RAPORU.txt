@@ -1,0 +1,11 @@
+GP 2.2.2 REV1 — PREMIUM EXPERTISE REDESIGN
+
+Düzeltilenler:
+- Uzmanlık sayfasındaki logo/başlık çakışması giderildi.
+- Hero alanı baştan tasarlandı ve yüksek çözünürlüklü mevcut 1200x675 laboratuvar görseli kullanıldı.
+- Ürün kartlarının görselleri küçük ve kontrollü boyutta gösterilerek bulanıklık hissi giderildi.
+- Düz madde listeleri premium panel, problem matrisi, danışmanlık çıktıları ve üretici kartlarına dönüştürüldü.
+- Uzman notu koyu premium bilgi paneline dönüştürüldü.
+- Mobil/tablet responsive düzen eklendi.
+- TR/EN/AR sayfaları aynı tasarım sistemiyle güncellendi.
+- Epoksi, PU, hibrit ve MS polimer uzmanlık iddiaları eklenmedi.
