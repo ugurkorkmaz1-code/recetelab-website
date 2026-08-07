@@ -1,0 +1,10 @@
+ReçeteLab QA – Dekoratif Sıra Numaraları Temizliği
+
+Yapılanlar:
+- TR/EN/AR ana sayfalarda hizmet kartı numaraları kaldırıldı.
+- TR/EN/AR uzmanlık kartı numaraları kaldırıldı.
+- TR/EN/AR ana sayfa metodoloji kartı numaraları kaldırıldı.
+- TR/EN/AR Bilgi Merkezi kartı numaraları kaldırıldı.
+- TR/EN/AR metodoloji detay sayfalarındaki dekoratif süreç/kart numaraları kaldırıldı.
+- Numara sütunları kaldırıldıktan sonra boşluk oluşmaması için ilgili CSS grid/margin düzenleri güncellendi.
+- Ürün sınıfları (C1, C2, C2TE vb.) ve teknik olarak anlamlı sayılar korunmuştur.
