@@ -1,0 +1,14 @@
+GROWTH PACK 2.2.2 — EXPERTISE PACK
+
+Uygulananlar:
+- Teknik yetkinlik haritası üç dilde ana sayfaya eklendi.
+- Ürün grupları: seramik yapıştırıcı, derz, kendinden yayılan şap, tamir harcı, çimento esaslı su yalıtımı ve drymix.
+- Çözebildiğimiz problemler bölümü eklendi.
+- Danışmanlık çıktıları ve uzman notu eklendi.
+- TR/EN/AR ayrı Uzmanlık merkezi sayfaları oluşturuldu.
+- Navigasyon uzmanlık merkezlerine bağlandı.
+- Sitemap yeni hub sayfalarıyla güncellendi.
+- Epoksi, poliüretan, hibrit ve MS polimer uzmanlık iddiaları kapsam dışı bırakıldı.
+- Mevcut su yalıtımı metinleri çimento esaslı sistemlerle sınırlandırıldı.
+
+Kapsam ilkesi: Doğrulanamayan deneyim, sertifika, müşteri veya proje sayısı eklenmemiştir.
