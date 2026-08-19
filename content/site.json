@@ -2,321 +2,72 @@
   "tr": {
     "title": "ReçeteLab | Yapı Kimyasallarında Reçete ve Üretim Danışmanlığı",
     "description": "ReçeteLab; yapı kimyasallarında yeni ürün geliştirme, reçete optimizasyonu, maliyet düşürme ve üretim sorunlarının çözümü için teknik danışmanlık sunar.",
-    "nav": [
-      "Hizmetler",
-      "Ürün Grupları",
-      "Süreç",
-      "Neden Biz?",
-      "İletişim"
-    ],
+    "nav": ["Hizmetler", "Ürün Grupları", "Süreç", "Neden Biz?", "İletişim"],
     "kicker": "Yapı Kimyasalları • Reçete • Üretim • Optimizasyon",
     "h1": "Performansı artırın.|Maliyeti düşürün.|Üretimi güçlendirin.",
     "hero": "ReçeteLab, yapı kimyasalları üreticileri için yalnızca formül değil; sahada çalışan, üretilebilir ve ticari karşılığı olan çözümler geliştirir.",
     "primary": "Projenizi Anlatın",
     "secondary": "Nasıl Çalışıyoruz?",
-    "metrics": [
-      [
-        "Firmaya özel",
-        "Hazır reçete değil"
-      ],
-      [
-        "Gizlilik odaklı",
-        "Bilginiz size özel"
-      ],
-      [
-        "Üretim uyumlu",
-        "Laboratuvardan sahaya"
-      ]
-    ],
+    "metrics": [["Firmaya özel", "Hazır reçete değil"], ["Gizlilik odaklı", "Bilginiz size özel"], ["Üretim uyumlu", "Laboratuvardan sahaya"]],
     "services_title": "Teknik sorunları ticari avantaja dönüştürün",
-    "services": [
-      [
-        "Yeni Ürün Geliştirme",
-        "Fikir aşamasından pilot üretime kadar yeni ürün reçetesi ve proses desteği."
-      ],
-      [
-        "Reçete Optimizasyonu",
-        "Mevcut ürününüzde performans, stabilite ve uygulama kalitesini geliştirme."
-      ],
-      [
-        "Maliyet Mühendisliği",
-        "Kaliteyi bozmadan daha verimli hammadde ve dozaj kombinasyonları."
-      ],
-      [
-        "Üretim Sorunları",
-        "Topaklanma, çatlama, düşük aderans, priz ve kıvam sorunlarına müdahale."
-      ]
-    ],
+    "services": [["Yeni Ürün Geliştirme", "Fikir aşamasından pilot üretime kadar yeni ürün reçetesi ve proses desteği."], ["Reçete Optimizasyonu", "Mevcut ürününüzde performans, stabilite ve uygulama kalitesini geliştirme."], ["Maliyet Mühendisliği", "Kaliteyi bozmadan daha verimli hammadde ve dozaj kombinasyonları."], ["Üretim Sorunları", "Topaklanma, çatlama, düşük aderans, priz ve kıvam sorunlarına müdahale."]],
     "products_title": "Yapı kimyasallarının kritik ürünlerinde uzman yaklaşım",
-    "products": [
-      [
-        "Seramik Yapıştırıcıları",
-        "C1, C2, T, E, S1 ve S2 sınıflarında performans odaklı çözümler."
-      ],
-      [
-        "Derz Dolguları",
-        "Renk stabilitesi, su iticilik, işlenebilirlik ve dayanım optimizasyonu."
-      ],
-      [
-        "Su Yalıtım Sistemleri",
-        "Çimento esaslı, akrilik ve hibrit sistemlerde ürün geliştirme."
-      ],
-      [
-        "Şap, Harç ve Kaplamalar",
-        "Akış, priz, yüzey kalitesi ve mekanik dayanım odaklı formülasyon."
-      ]
-    ],
+    "products": [["Seramik Yapıştırıcıları", "C1, C2, T, E, S1 ve S2 sınıflarında performans odaklı çözümler."], ["Derz Dolguları", "Renk stabilitesi, su iticilik, işlenebilirlik ve dayanım optimizasyonu."], ["Su Yalıtım Sistemleri", "Çimento esaslı, akrilik ve hibrit sistemlerde ürün geliştirme."], ["Şap, Harç ve Kaplamalar", "Akış, priz, yüzey kalitesi ve mekanik dayanım odaklı formülasyon."]],
     "process_title": "Net, ölçülebilir ve kontrollü ilerleme",
-    "process": [
-      [
-        "İhtiyaç Analizi",
-        "Ürün hedefleri, hammaddeler, üretim altyapısı ve maliyet sınırları belirlenir."
-      ],
-      [
-        "Formülasyon",
-        "Laboratuvar ölçeğinde alternatif reçeteler geliştirilir ve performans testleri yapılır."
-      ],
-      [
-        "Pilot Üretim",
-        "Seçilen reçete üretim hattına taşınır, proses ayarları doğrulanır."
-      ],
-      [
-        "Devreye Alma",
-        "Son reçete ve üretim notları teslim edilir, saha geri bildirimleriyle süreç tamamlanır."
-      ]
-    ],
+    "process": [["İhtiyaç Analizi", "Ürün hedefleri, hammaddeler, üretim altyapısı ve maliyet sınırları belirlenir."], ["Formülasyon", "Laboratuvar ölçeğinde alternatif reçeteler geliştirilir ve performans testleri yapılır."], ["Pilot Üretim", "Seçilen reçete üretim hattına taşınır, proses ayarları doğrulanır."], ["Devreye Alma", "Son reçete ve üretim notları teslim edilir, saha geri bildirimleriyle süreç tamamlanır."]],
     "why_title": "Çünkü her fabrikanın reçetesi kendine özeldir.",
-    "why": [
-      "Gizlilik esaslı çalışma",
-      "Firmaya özel formülasyon",
-      "Üretilebilir ve uygulanabilir sonuç",
-      "Maliyet–performans dengesi",
-      "Üretim sonrası teknik destek"
-    ],
+    "why": ["Gizlilik esaslı çalışma", "Firmaya özel formülasyon", "Üretilebilir ve uygulanabilir sonuç", "Maliyet–performans dengesi", "Üretim sonrası teknik destek"],
     "contact_title": "Ürününüzü anlatın, birlikte güçlendirelim.",
     "contact_text": "Mevcut bir reçeteniz, yeni ürün fikriniz veya çözemediğiniz bir üretim sorununuz varsa kısa bilgileri bırakın.",
-    "labels": [
-      "Ad Soyad",
-      "Firma",
-      "Telefon",
-      "E-posta",
-      "İlgilendiğiniz hizmet",
-      "Projeniz"
-    ],
+    "labels": ["Ad Soyad", "Firma", "Telefon", "E-posta", "İlgilendiğiniz hizmet", "Projeniz"],
     "send": "WhatsApp'tan Gönder",
     "footer": "Yapı kimyasallarında reçete geliştirme, üretim ve optimizasyon danışmanlığı."
   },
   "en": {
     "title": "ReçeteLab | Construction Chemicals Formulation Consulting",
     "description": "ReçeteLab provides product development, formulation optimization, cost engineering and production troubleshooting for construction chemical manufacturers.",
-    "nav": [
-      "Services",
-      "Product Groups",
-      "Process",
-      "Why Us?",
-      "Contact"
-    ],
+    "nav": ["Services", "Product Groups", "Process", "Why Us?", "Contact"],
     "kicker": "Construction Chemicals • Formulation • Production • Optimization",
     "h1": "Increase performance.|Reduce cost.|Strengthen production.",
     "hero": "ReçeteLab develops more than formulas for construction chemical manufacturers: practical, scalable and commercially viable solutions that work in real production.",
     "primary": "Tell Us About Your Project",
     "secondary": "How We Work",
-    "metrics": [
-      [
-        "Tailor-made",
-        "No generic formulas"
-      ],
-      [
-        "Confidential",
-        "Your know-how stays yours"
-      ],
-      [
-        "Production-ready",
-        "From lab to plant"
-      ]
-    ],
+    "metrics": [["Tailor-made", "No generic formulas"], ["Confidential", "Your know-how stays yours"], ["Production-ready", "From lab to plant"]],
     "services_title": "Turn technical problems into commercial advantage",
-    "services": [
-      [
-        "New Product Development",
-        "Formulation and process support from concept to pilot production."
-      ],
-      [
-        "Formula Optimization",
-        "Improve performance, stability and application quality of existing products."
-      ],
-      [
-        "Cost Engineering",
-        "Smarter raw-material and dosage combinations without sacrificing quality."
-      ],
-      [
-        "Production Troubleshooting",
-        "Technical solutions for lumping, cracking, low adhesion, setting and rheology issues."
-      ]
-    ],
+    "services": [["New Product Development", "Formulation and process support from concept to pilot production."], ["Formula Optimization", "Improve performance, stability and application quality of existing products."], ["Cost Engineering", "Smarter raw-material and dosage combinations without sacrificing quality."], ["Production Troubleshooting", "Technical solutions for lumping, cracking, low adhesion, setting and rheology issues."]],
     "products_title": "Specialized expertise in critical construction chemical products",
-    "products": [
-      [
-        "Tile Adhesives",
-        "الأداء-focused solutions for C1, C2, T, E, S1 and S2 classes."
-      ],
-      [
-        "Tile Grouts",
-        "Optimization of color stability, water repellency, workability and strength."
-      ],
-      [
-        "Waterproofing Systems",
-        "Development of cementitious, acrylic and hybrid waterproofing products."
-      ],
-      [
-        "Screeds, Mortars & Coatings",
-        "Formulations focused on flow, setting, surface quality and mechanical strength."
-      ]
-    ],
+    "products": [["Tile Adhesives", "Performance-focused solutions for C1, C2, T, E, S1 and S2 classes."], ["Tile Grouts", "Optimization of color stability, water repellency, workability and strength."], ["Waterproofing Systems", "Development of cementitious, acrylic and hybrid waterproofing products."], ["Screeds, Mortars & Coatings", "Formulations focused on flow, setting, surface quality and mechanical strength."]],
     "process_title": "Clear, measurable and controlled progress",
-    "process": [
-      [
-        "Needs Analysis",
-        "We define product goals, raw materials, plant capabilities and cost limits."
-      ],
-      [
-        "Formulation",
-        "Alternative formulas are developed and tested at laboratory scale."
-      ],
-      [
-        "Pilot Production",
-        "The selected formula is transferred to the production line and process settings are validated."
-      ],
-      [
-        "Commissioning",
-        "The final formula and production notes are delivered and refined with field feedback."
-      ]
-    ],
+    "process": [["Needs Analysis", "We define product goals, raw materials, plant capabilities and cost limits."], ["Formulation", "Alternative formulas are developed and tested at laboratory scale."], ["Pilot Production", "The selected formula is transferred to the production line and process settings are validated."], ["Commissioning", "The final formula and production notes are delivered and refined with field feedback."]],
     "why_title": "Because every factory needs its own formula.",
-    "why": [
-      "Confidential working model",
-      "Company-specific formulation",
-      "Practical and scalable results",
-      "Cost–performance balance",
-      "Post-production technical support"
-    ],
+    "why": ["Confidential working model", "Company-specific formulation", "Practical and scalable results", "Cost–performance balance", "Post-production technical support"],
     "contact_title": "Tell us about your product. Let’s make it stronger.",
     "contact_text": "Share a few details about your current formula, new product idea or unresolved production issue.",
-    "labels": [
-      "Full Name",
-      "Company",
-      "Phone",
-      "Email",
-      "Service",
-      "Project Details"
-    ],
+    "labels": ["Full Name", "Company", "Phone", "Email", "Service", "Project Details"],
     "send": "Send via WhatsApp",
     "footer": "Formulation, production and optimization consulting for construction chemicals."
   },
   "ar": {
     "title": "ReçeteLab | استشارات تطوير تركيبات كيماويات البناء والخلطات الجافة",
     "description": "استشارات هندسية لتطوير وتحسين تركيبات كيماويات البناء والخلطات الجافة، وخفض التكلفة، وحل مشكلات الإنتاج، ودعم التشغيل الصناعي.",
-    "nav": [
-      "الخدمات",
-      "مجالات الخبرة",
-      "المنهجية",
-      "مركز المعرفة",
-      "تواصل معنا"
-    ],
+    "nav": ["الخدمات", "مجالات الخبرة", "المنهجية", "مركز المعرفة", "تواصل معنا"],
     "kicker": "كيماويات البناء • تطوير التركيبات • الخلطات الجافة • الإنتاج",
     "h1": "طوّر الأداء.|اخفض التكلفة.|ثبّت جودة الإنتاج.",
     "hero": "تطوّر ReçeteLab حلولاً هندسية قابلة للتطبيق الصناعي لمصنّعي كيماويات البناء، من تطوير التركيبة وتحسينها إلى استقرار العملية على خط الإنتاج.",
     "primary": "شاركنا تفاصيل مشروعك",
     "secondary": "تعرّف على منهجية العمل",
-    "metrics": [
-      [
-        "حلول مصممة لاحتياجاتكم",
-        "وليست تركيبات جاهزة للجميع"
-      ],
-      [
-        "سرية وملكية محفوظة",
-        "تبقى بياناتكم ومعلوماتكم ملكاً لكم"
-      ],
-      [
-        "قابلة للتطبيق الصناعي",
-        "من المختبر إلى خط الإنتاج"
-      ]
-    ],
+    "metrics": [["حلول مصممة لاحتياجاتكم", "وليست تركيبات جاهزة للجميع"], ["سرية وملكية محفوظة", "تبقى بياناتكم ومعلوماتكم ملكاً لكم"], ["قابلة للتطبيق الصناعي", "من المختبر إلى خط الإنتاج"]],
     "services_title": "نحوّل التحديات الفنية إلى حلول قابلة للقياس والتطبيق الصناعي",
-    "services": [
-      [
-        "تطوير منتجات جديدة",
-        "من فكرة المنتج إلى الإنتاج التجريبي، وفق متطلبات الأداء والسوق والتكلفة المستهدفة."
-      ],
-      [
-        "تحسين التركيبات",
-        "تحسين سهولة التطبيق وقوة الالتصاق ومدة التشغيل والثبات والأداء في الموقع."
-      ],
-      [
-        "هندسة التكلفة",
-        "خفض التكلفة الإجمالية عبر اختيار المواد الخام والجرعات مع الحفاظ على متطلبات الأداء والجودة."
-      ],
-      [
-        "حل مشكلات الإنتاج",
-        "حلول فنية للتكتل والتشقق وضعف الالتصاق واضطراب زمن الشك وفقدان القوام وتفاوت الجودة بين الدُفعات."
-      ]
-    ],
+    "services": [["تطوير منتجات جديدة", "من فكرة المنتج إلى الإنتاج التجريبي، وفق متطلبات الأداء والسوق والتكلفة المستهدفة."], ["تحسين التركيبات", "تحسين سهولة التطبيق وقوة الالتصاق ومدة التشغيل والثبات والأداء في الموقع."], ["هندسة التكلفة", "خفض التكلفة الإجمالية عبر اختيار المواد الخام والجرعات مع الحفاظ على متطلبات الأداء والجودة."], ["حل مشكلات الإنتاج", "حلول فنية للتكتل والتشقق وضعف الالتصاق واضطراب زمن الشك وفقدان القوام وتفاوت الجودة بين الدُفعات."]],
     "products_title": "خبرة متخصصة في أنظمة كيماويات البناء الإسمنتية والخلطات الجافة",
-    "products": [
-      [
-        "لواصق البلاط والسيراميك",
-        "تطوير وتحسين أنظمة C1 وC2 وT وE وS1 وS2 وفق متطلبات الأداء والتطبيق."
-      ],
-      [
-        "ترويبات الفواصل الإسمنتية (الجراوت)",
-        "تحسين ثبات اللون ومقاومة نفاذ الماء وسهولة التطبيق والمتانة."
-      ],
-      [
-        "العزل المائي الإسمنتي",
-        "تطوير أنظمة إسمنتية مع التركيز على الالتصاق ومقاومة نفاذ الماء وقابلية التطبيق."
-      ],
-      [
-        "مواد التسوية الذاتية ومونة إصلاح الخرسانة",
-        "تركيبات تركز على السيولة وزمن الشك وجودة السطح والمقاومة الميكانيكية والثبات."
-      ]
-    ],
+    "products": [["لواصق البلاط والسيراميك", "تطوير وتحسين أنظمة C1 وC2 وT وE وS1 وS2 وفق متطلبات الأداء والتطبيق."], ["ترويبات الفواصل الإسمنتية (الجراوت)", "تحسين ثبات اللون ومقاومة نفاذ الماء وسهولة التطبيق والمتانة."], ["العزل المائي الإسمنتي", "تطوير أنظمة إسمنتية مع التركيز على الالتصاق ومقاومة نفاذ الماء وقابلية التطبيق."], ["مواد التسوية الذاتية ومونة إصلاح الخرسانة", "تركيبات تركز على السيولة وزمن الشك وجودة السطح والمقاومة الميكانيكية والثبات."]],
     "process_title": "منهج واضح وقابل للقياس في كل مرحلة",
-    "process": [
-      [
-        "تحليل المتطلبات",
-        "نحدّد أهداف المنتج والمواد الخام المتاحة وقدرات المصنع وقيود التكلفة ومتطلبات السوق."
-      ],
-      [
-        "تطوير التركيبة والتحقق",
-        "نطوّر البدائل ونقارنها مخبرياً وفق معايير قبول قابلة للقياس."
-      ],
-      [
-        "الإنتاج التجريبي",
-        "ننقل التركيبة إلى نطاق تجريبي يحاكي ظروف الإنتاج ونراجع تسلسل الخلط والجرعات."
-      ],
-      [
-        "التطبيق على خط الإنتاج",
-        "نسلّم تعليمات التشغيل ونقاط ضبط الجودة ونستكمل التحسين وفق نتائج الإنتاج والتطبيق الفعلي."
-      ]
-    ],
+    "process": [["تحليل المتطلبات", "نحدّد أهداف المنتج والمواد الخام المتاحة وقدرات المصنع وقيود التكلفة ومتطلبات السوق."], ["تطوير التركيبة والتحقق", "نطوّر البدائل ونقارنها مخبرياً وفق معايير قبول قابلة للقياس."], ["الإنتاج التجريبي", "ننقل التركيبة إلى نطاق تجريبي يحاكي ظروف الإنتاج ونراجع تسلسل الخلط والجرعات."], ["التطبيق على خط الإنتاج", "نسلّم تعليمات التشغيل ونقاط ضبط الجودة ونستكمل التحسين وفق نتائج الإنتاج والتطبيق الفعلي."]],
     "why_title": "لأن لكل مصنع مواده الخام وظروف تشغيله ومتطلبات سوقه.",
-    "why": [
-      "العمل وفق مبدأ السرية وإمكانية توقيع اتفاقية عدم إفصاح",
-      "تركيبات مصممة وفق المواد الخام وظروف الإنتاج الفعلية",
-      "نتائج قابلة للقياس والتطبيق والانتقال إلى النطاق الصناعي",
-      "توازن مدروس بين التكلفة ومتطلبات الأداء",
-      "دعم فني خلال الإنتاج التجريبي ومرحلة الاستقرار"
-    ],
+    "why": ["العمل وفق مبدأ السرية وإمكانية توقيع اتفاقية عدم إفصاح", "تركيبات مصممة وفق المواد الخام وظروف الإنتاج الفعلية", "نتائج قابلة للقياس والتطبيق والانتقال إلى النطاق الصناعي", "توازن مدروس بين التكلفة ومتطلبات الأداء", "دعم فني خلال الإنتاج التجريبي ومرحلة الاستقرار"],
     "contact_title": "شاركنا تحدّيكم الفني ولنطوّر الحل معاً.",
     "contact_text": "أرسلوا لنا معلومات موجزة عن التركيبة الحالية أو المنتج المراد تطويره أو المشكلة الإنتاجية، وسنبدأ بتقييم فني أولي.",
-    "labels": [
-      "الاسم الكامل",
-      "الشركة",
-      "الهاتف",
-      "البريد الإلكتروني",
-      "الخدمة المطلوبة",
-      "تفاصيل المشروع"
-    ],
+    "labels": ["الاسم الكامل", "الشركة", "الهاتف", "البريد الإلكتروني", "الخدمة المطلوبة", "تفاصيل المشروع"],
     "send": "إرسال عبر واتساب",
     "footer": "استشارات هندسية لتطوير تركيبات وإنتاج كيماويات البناء والخلطات الجافة."
   }
