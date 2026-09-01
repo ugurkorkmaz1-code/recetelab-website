@@ -18,19 +18,18 @@ $('.lang>button')?.addEventListener('click',e=>{e.stopPropagation();$('.lang').c
 $('.menu-toggle')?.addEventListener('click',()=>$('.nav-links').classList.toggle('open'));$$('.nav-links a').forEach(a=>a.addEventListener('click',()=>$('.nav-links').classList.remove('open')));
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.12});$$('.reveal').forEach(x=>io.observe(x));
 
-// Knowledge Center: technical articles are kept separate from permanent expertise clusters.
+// Dedicated visual for the self-leveling screed article only.
+// Cost Engineering expertise cards keep their original artwork.
 (()=>{
+  const articlePaths=new Set([
+    '/tr/bilgi-merkezi/kendinden-yayilan-sap-maliyet-optimizasyonu/',
+    '/en/knowledge-center/self-leveling-screed-cost-optimization/',
+    '/ar/knowledge-center/self-leveling-screed-cost-optimization/'
+  ]);
   const path=location.pathname.replace(/\/+$/,'/');
-  const cfg={
-    '/tr/bilgi-merkezi/':{kicker:'REÇETELAB / TEKNİK YAYINLAR',title:'Teknik Makaleler',intro:'Formülasyon, hammaddeler, üretim ve maliyet optimizasyonuna yönelik derinlemesine teknik yayınlar.',href:'/tr/bilgi-merkezi/kendinden-yayilan-sap-maliyet-optimizasyonu/',tag:'MALİYET MÜHENDİSLİĞİ · SELF-LEVELING SCREED',article:'Kendinden Yayılan Şap Formülasyonu',desc:'Performanstan ödün vermeden maliyet nasıl düşürülür? Bağlayıcı sistemden katkı verimliliğine kadar sistem yaklaşımı.',cta:'Makaleyi Oku →'},
-    '/en/knowledge-center/':{kicker:'REÇETELAB / TECHNICAL PUBLICATIONS',title:'Technical Articles',intro:'In-depth technical publications on formulation, raw materials, production and cost optimization.',href:'/en/knowledge-center/self-leveling-screed-cost-optimization/',tag:'COST ENGINEERING · SELF-LEVELING SCREED',article:'Self-Leveling Screed Formulation',desc:'How to reduce cost without losing performance—from binder balance and mineral packing to additive efficiency and production validation.',cta:'Read Article →'},
-    '/ar/knowledge-center/':{kicker:'REÇETELAB / المقالات الفنية',title:'المقالات الفنية',intro:'مقالات هندسية متعمقة حول تطوير التركيبات والمواد الخام والإنتاج وتحسين التكلفة.',href:'/ar/knowledge-center/self-leveling-screed-cost-optimization/',tag:'هندسة التكلفة · مونة التسوية الذاتية',article:'تركيبة مونة التسوية الذاتية',desc:'كيف نخفض التكلفة دون التضحية بالأداء؟ من موازنة المواد الرابطة والتدرج الحبيبي إلى كفاءة الإضافات والتحقق في الإنتاج.',cta:'اقرأ المقال ←'}
-  }[path];
-  const grid=$('.knowledge-grid');if(!cfg||!grid)return;
-  const section=document.createElement('section');section.className='technical-articles-section';
-  section.innerHTML=`<div class="technical-articles-head"><span class="kicker">${cfg.kicker}</span><h2>${cfg.title}</h2><p>${cfg.intro}</p></div><div class="technical-articles-grid"><a class="technical-article-card" href="${cfg.href}"><div class="technical-article-visual"><img src="/assets/expertise/cost-engineering.webp" alt="${cfg.article}" width="800" height="360" loading="lazy" decoding="async"/></div><div class="technical-article-copy"><small>${cfg.tag}</small><h3>${cfg.article}</h3><p>${cfg.desc}</p><strong>${cfg.cta}</strong></div></a></div>`;
-  grid.insertAdjacentElement('afterend',section);
-  if(!document.getElementById('technical-articles-style')){const style=document.createElement('style');style.id='technical-articles-style';style.textContent=`.technical-articles-section{margin-top:70px;padding-top:54px;border-top:1px solid #dce3ea}.technical-articles-head{max-width:760px;margin-bottom:26px}.technical-articles-head h2{font-size:clamp(30px,4vw,46px);letter-spacing:-.035em;margin:0 0 12px}.technical-articles-head p{color:#667085;font-size:17px;line-height:1.7}.technical-articles-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.technical-article-card{display:block;background:#071b31;color:#fff;border-radius:18px;overflow:hidden;box-shadow:0 16px 38px rgba(7,17,31,.12);transition:.25s}.technical-article-card:hover{transform:translateY(-5px);box-shadow:0 22px 48px rgba(7,17,31,.2)}.technical-article-visual{aspect-ratio:16/7;overflow:hidden}.technical-article-visual img{width:100%;height:100%;object-fit:cover;display:block}.technical-article-copy{padding:22px}.technical-article-copy small{color:#ff9b54;font-weight:850;letter-spacing:.04em}.technical-article-copy h3{font-size:23px;margin:10px 0}.technical-article-copy p{color:#c5d0dc;line-height:1.65;margin:0 0 16px}.technical-article-copy strong{color:#ff9b54}@media(max-width:850px){.technical-articles-grid{grid-template-columns:1fr 1fr}}@media(max-width:620px){.technical-articles-section{margin-top:50px;padding-top:40px}.technical-articles-grid{grid-template-columns:1fr}}`;document.head.appendChild(style);}
+  if(!articlePaths.has(path))return;
+  const hero=$('.article-hero-img');
+  if(hero) hero.src='/assets/self-leveling-screed-cost-optimization.jpg';
 })();
 
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
