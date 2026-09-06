@@ -32,6 +32,23 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
   if(hero) hero.src='/assets/self-leveling-screed-cost-optimization.jpg';
 })();
 
+// New high-resolution Drymix visual: article hero, Knowledge Center card,
+// and Drymix Technology expertise visuals in all three languages.
+(()=>{
+  const newImage='/assets/drymix-formulation-development.png';
+  const path=location.pathname.replace(/\/+$/,'/');
+  const articlePaths=new Set([
+    '/tr/bilgi-merkezi/drymix-formulasyon-laboratuvardan-endustriyel-uretime/',
+    '/en/knowledge-center/drymix-formulation-lab-to-industrial-production/',
+    '/ar/knowledge-center/drymix-formulation-lab-to-industrial-production/'
+  ]);
+  if(articlePaths.has(path)){
+    const hero=$('.article-hero-img');
+    if(hero) hero.src=newImage;
+  }
+  $$('img[src="/assets/expertise/drymix-technology.webp"]').forEach(img=>{img.src=newImage;});
+})();
+
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const sliders=$$('#optimizer input[type=range]');function optimize(){const p=+$('#perf').value,c=+$('#cost').value,w=+$('#work').value;sliders.forEach(s=>s.nextElementSibling.value=s.value);const score=Math.round(p*.46+w*.34+(100-c)*.2);$('#scoreValue').textContent=score;$('.score-ring').style.setProperty('--score',score);$('#qualityBar').style.width=`${Math.max(20,(p+w)/2)}%`;$('#savingBar').style.width=`${Math.max(10,100-c)}%`}sliders.forEach(s=>s.addEventListener('input',optimize));if(sliders.length)optimize();
 const regions=window.RECETELAB?.regions||{};const mapPoints=$$('.region-point');const selectRegion=b=>{const k=b.dataset.region,v=regions[k];if(!v)return;mapPoints.forEach(x=>{const active=x===b;x.classList.toggle('active',active);x.setAttribute('aria-pressed',active?'true':'false')});$('#regionCode').textContent=k;$('#regionName').textContent=v[0];$('#regionText').textContent=v[1];const list=$('#regionFeatures');if(list){list.innerHTML='';(v[2]||[]).forEach(item=>{const li=document.createElement('li');li.textContent=item;list.appendChild(li)})}};mapPoints.forEach(b=>{b.setAttribute('aria-pressed',b.classList.contains('active')?'true':'false');b.addEventListener('click',()=>selectRegion(b));b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectRegion(b)}})});
