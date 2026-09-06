@@ -18,15 +18,18 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          old = '/assets/expertise/drymix-technology.webp'
-          new = '/assets/drymix-formulation-development.png'
+          old_abs = 'https://recetelab.com/assets/expertise/drymix-technology.webp'
+          new_abs = 'https://recetelab.com/assets/drymix-formulation-development.png'
+          old_rel = '/assets/expertise/drymix-technology.webp'
+          new_rel = '/assets/drymix-formulation-development.png?v=20260906-2'
           changed = []
           for p in Path('.').rglob('*.html'):
               text = p.read_text(encoding='utf-8')
-              updated = text.replace(old, new)
-              updated = updated.replace('https://recetelab.com/assets/expertise/drymix-technology.webp', 'https://recetelab.com/assets/drymix-formulation-development.png')
-              updated = updated.replace('/assets/script.js?v=gp212', '/assets/script.js?v=gp214')
-              updated = updated.replace('/assets/script.js?v=gp213', '/assets/script.js?v=gp214')
+              updated = text.replace(old_abs, new_abs)
+              updated = updated.replace(old_rel, new_rel)
+              updated = updated.replace('/assets/script.js?v=gp212', '/assets/script.js?v=gp215')
+              updated = updated.replace('/assets/script.js?v=gp213', '/assets/script.js?v=gp215')
+              updated = updated.replace('/assets/script.js?v=gp214', '/assets/script.js?v=gp215')
               if updated != text:
                   p.write_text(updated, encoding='utf-8')
                   changed.append(str(p))
@@ -42,6 +45,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No changes required.'
           else
-            git commit -m 'Replace Drymix artwork with uploaded high-resolution image'
+            git commit -m 'Replace Drymix artwork references in all languages'
             git push
           fi
