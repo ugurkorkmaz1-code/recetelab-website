@@ -1,0 +1,47 @@
+name: Fix Drymix image references
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-drymix-image.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  replace-drymix-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace old Drymix artwork references
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          old = '/assets/expertise/drymix-technology.webp'
+          new = '/assets/drymix-formulation-development.png'
+          changed = []
+          for p in Path('.').rglob('*.html'):
+              text = p.read_text(encoding='utf-8')
+              updated = text.replace(old, new)
+              updated = updated.replace('https://recetelab.com/assets/expertise/drymix-technology.webp', 'https://recetelab.com/assets/drymix-formulation-development.png')
+              updated = updated.replace('/assets/script.js?v=gp212', '/assets/script.js?v=gp214')
+              updated = updated.replace('/assets/script.js?v=gp213', '/assets/script.js?v=gp214')
+              if updated != text:
+                  p.write_text(updated, encoding='utf-8')
+                  changed.append(str(p))
+          print('Changed files:')
+          print('\n'.join(changed))
+          PY
+      - name: Commit static image references
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No changes required.'
+          else
+            git commit -m 'Replace Drymix artwork with uploaded high-resolution image'
+            git push
+          fi
