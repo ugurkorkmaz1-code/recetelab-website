@@ -19,34 +19,30 @@ $('.menu-toggle')?.addEventListener('click',()=>$('.nav-links').classList.toggle
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.12});$$('.reveal').forEach(x=>io.observe(x));
 
 // Dedicated visual for the self-leveling screed article only.
-// Cost Engineering expertise cards keep their original artwork.
 (()=>{
-  const articlePaths=new Set([
-    '/tr/bilgi-merkezi/kendinden-yayilan-sap-maliyet-optimizasyonu/',
-    '/en/knowledge-center/self-leveling-screed-cost-optimization/',
-    '/ar/knowledge-center/self-leveling-screed-cost-optimization/'
-  ]);
+  const articlePaths=new Set(['/tr/bilgi-merkezi/kendinden-yayilan-sap-maliyet-optimizasyonu/','/en/knowledge-center/self-leveling-screed-cost-optimization/','/ar/knowledge-center/self-leveling-screed-cost-optimization/']);
   const path=location.pathname.replace(/\/+$/,'/');
   if(!articlePaths.has(path))return;
-  const hero=$('.article-hero-img');
-  if(hero) hero.src='/assets/self-leveling-screed-cost-optimization.jpg';
+  const hero=$('.article-hero-img');if(hero) hero.src='/assets/self-leveling-screed-cost-optimization.jpg';
 })();
 
-// New high-resolution Drymix visual: article hero, Knowledge Center card,
-// and Drymix Technology expertise visuals in all three languages.
+// High-resolution Drymix scale-up visual for the original Drymix article and expertise cards.
 (()=>{
   const newImage='/assets/drymix-formulation-development.png';
   const path=location.pathname.replace(/\/+$/,'/');
-  const articlePaths=new Set([
-    '/tr/bilgi-merkezi/drymix-formulasyon-laboratuvardan-endustriyel-uretime/',
-    '/en/knowledge-center/drymix-formulation-lab-to-industrial-production/',
-    '/ar/knowledge-center/drymix-formulation-lab-to-industrial-production/'
-  ]);
-  if(articlePaths.has(path)){
-    const hero=$('.article-hero-img');
-    if(hero) hero.src=newImage;
-  }
+  const articlePaths=new Set(['/tr/bilgi-merkezi/drymix-formulasyon-laboratuvardan-endustriyel-uretime/','/en/knowledge-center/drymix-formulation-lab-to-industrial-production/','/ar/knowledge-center/drymix-formulation-lab-to-industrial-production/']);
+  if(articlePaths.has(path)){const hero=$('.article-hero-img');if(hero) hero.src=newImage;}
   $$('img[src="/assets/expertise/drymix-technology.webp"]').forEach(img=>{img.src=newImage;});
+})();
+
+// Dedicated raw-material variability artwork: new article hero and its Knowledge Center card in TR/EN/AR.
+(()=>{
+  const image='/assets/raw-material-variability-drymix.png?v=20260915-2';
+  const path=location.pathname.replace(/\/+$/,'/');
+  const articlePaths=new Set(['/tr/bilgi-merkezi/hammadde-degisimi-drymix-recete-performansi/','/en/knowledge-center/raw-material-variability-drymix-formulation-troubleshooting/','/ar/knowledge-center/raw-material-variability-drymix-formulation/']);
+  if(articlePaths.has(path)){const hero=$('.article-hero-img');if(hero) hero.src=image;}
+  const cardHrefs=new Set(['/tr/bilgi-merkezi/hammadde-degisimi-drymix-recete-performansi/','/en/knowledge-center/raw-material-variability-drymix-formulation-troubleshooting/','/ar/knowledge-center/raw-material-variability-drymix-formulation/']);
+  $$('.article-card-featured').forEach(card=>{try{const href=new URL(card.href,location.origin).pathname.replace(/\/+$/,'/');if(cardHrefs.has(href)){const img=$('img',card);if(img)img.src=image;}}catch(_){}});
 })();
 
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
