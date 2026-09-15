@@ -1,0 +1,2 @@
+Deployment trigger: 2026-09-15
+Includes new TR/EN/AR raw-material variability technical articles and sitemap update.
