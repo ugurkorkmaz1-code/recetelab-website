@@ -1,0 +1,38 @@
+name: Fix latest article image
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-latest-article-image.yml'
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace old article artwork references
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          files = [
+            Path('tr/bilgi-merkezi/hammadde-degisimi-drymix-recete-performansi/index.html'),
+            Path('en/knowledge-center/raw-material-variability-drymix-formulation-troubleshooting/index.html'),
+            Path('ar/knowledge-center/raw-material-variability-drymix-formulation/index.html'),
+          ]
+          old_abs = 'https://recetelab.com/assets/drymix-formulation-development.png'
+          new_abs = 'https://recetelab.com/assets/raw-material-variability-drymix.png?v=20260915-5'
+          old_rel = '/assets/drymix-formulation-development.png?v=20260915'
+          new_rel = '/assets/raw-material-variability-drymix.png?v=20260915-5'
+          for p in files:
+              s = p.read_text(encoding='utf-8')
+              s = s.replace(old_abs, new_abs).replace(old_rel, new_rel)
+              s = s.replace('/assets/script.js?v=gp215', '/assets/script.js?v=gp216')
+              p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit fixes
+        run: |
+          git config user.name 'recetelab-site-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add tr/bilgi-merkezi/hammadde-degisimi-drymix-recete-performansi/index.html en/knowledge-center/raw-material-variability-drymix-formulation-troubleshooting/index.html ar/knowledge-center/raw-material-variability-drymix-formulation/index.html
+          git diff --cached --quiet || git commit -m 'Sync latest article artwork across TR EN AR'
+          git push
