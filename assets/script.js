@@ -45,6 +45,31 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
   $$('.article-card-featured').forEach(card=>{try{const href=new URL(card.href,location.origin).pathname.replace(/\/+$/,'/');if(cardHrefs.has(href)){const img=$('img',card);if(img)img.src=image;}}catch(_){}});
 })();
 
+
+// Dedicated C2TES1 visuals: force the unique hero and S1 technical visual on the article,
+// and force the unique hero on its Knowledge Center card. This also repairs stale cached HTML.
+(()=>{
+  const heroImage='/assets/c2tes1-tile-adhesive-formulation.png?v=20260925-3';
+  const s1Image='/assets/c2tes1-s1-deformation-system.png?v=20260925-2';
+  const articlePath='/tr/bilgi-merkezi/c2tes1-seramik-yapistirici-formulasyonu/';
+  const path=location.pathname.replace(/\/+$/,'/');
+  if(path===articlePath){
+    const hero=$('.article-hero-img');
+    if(hero){hero.src=heroImage;hero.style.display='block';hero.style.visibility='visible';hero.style.opacity='1';}
+    if(!document.querySelector('img[src*="c2tes1-s1-deformation-system"]')){
+      const headings=[...document.querySelectorAll('.article-body h2')];
+      const h=headings.find(x=>/^3\.\s*Selüloz eter/.test((x.textContent||'').trim()));
+      if(h){
+        const fig=document.createElement('figure');fig.className='article-figure';
+        const img=document.createElement('img');img.src=s1Image;img.alt='C2TES1 seramik yapıştırıcıda S1 deformasyonu, yapıştırıcı kesiti ve polimer mikro yapı ilişkisi';img.loading='lazy';img.decoding='async';
+        const cap=document.createElement('figcaption');cap.textContent='S1 performansı yalnızca polimer miktarıyla değil; polimer fazı, mineral matris, aderans ve sistemin deformasyon davranışının birlikte dengelenmesiyle oluşur.';
+        fig.append(img,cap);h.before(fig);
+      }
+    }
+  }
+  $$('.article-card-featured').forEach(card=>{try{const href=new URL(card.href,location.origin).pathname.replace(/\/+$/,'/');if(href===articlePath){const img=$('img',card);if(img){img.src=heroImage;img.style.display='block';img.style.visibility='visible';img.style.opacity='1';}}}catch(_){}});
+})();
+
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const sliders=$$('#optimizer input[type=range]');function optimize(){const p=+$('#perf').value,c=+$('#cost').value,w=+$('#work').value;sliders.forEach(s=>s.nextElementSibling.value=s.value);const score=Math.round(p*.46+w*.34+(100-c)*.2);$('#scoreValue').textContent=score;$('.score-ring').style.setProperty('--score',score);$('#qualityBar').style.width=`${Math.max(20,(p+w)/2)}%`;$('#savingBar').style.width=`${Math.max(10,100-c)}%`}sliders.forEach(s=>s.addEventListener('input',optimize));if(sliders.length)optimize();
 const regions=window.RECETELAB?.regions||{};const mapPoints=$$('.region-point');const selectRegion=b=>{const k=b.dataset.region,v=regions[k];if(!v)return;mapPoints.forEach(x=>{const active=x===b;x.classList.toggle('active',active);x.setAttribute('aria-pressed',active?'true':'false')});$('#regionCode').textContent=k;$('#regionName').textContent=v[0];$('#regionText').textContent=v[1];const list=$('#regionFeatures');if(list){list.innerHTML='';(v[2]||[]).forEach(item=>{const li=document.createElement('li');li.textContent=item;list.appendChild(li)})}};mapPoints.forEach(b=>{b.setAttribute('aria-pressed',b.classList.contains('active')?'true':'false');b.addEventListener('click',()=>selectRegion(b));b.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectRegion(b)}})});
