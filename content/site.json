@@ -1,11 +1,11 @@
 {
   "tr": {
-    "title": "ReçeteLab | Yapı Kimyasallarında Reçete ve Üretim Danışmanlığı",
-    "description": "ReçeteLab; yapı kimyasallarında yeni ürün geliştirme, reçete optimizasyonu, maliyet düşürme ve üretim sorunlarının çözümü için teknik danışmanlık sunar.",
+    "title": "ReceteLab | Yapı Kimyasallarında Reçete ve Üretim Danışmanlığı",
+    "description": "ReceteLab; yapı kimyasallarında yeni ürün geliştirme, reçete optimizasyonu, maliyet düşürme ve üretim sorunlarının çözümü için teknik danışmanlık sunar.",
     "nav": ["Hizmetler", "Ürün Grupları", "Süreç", "Neden Biz?", "İletişim"],
     "kicker": "Yapı Kimyasalları • Reçete • Üretim • Optimizasyon",
     "h1": "Performansı artırın.|Maliyeti düşürün.|Üretimi güçlendirin.",
-    "hero": "ReçeteLab, yapı kimyasalları üreticileri için yalnızca formül değil; sahada çalışan, üretilebilir ve ticari karşılığı olan çözümler geliştirir.",
+    "hero": "ReceteLab, yapı kimyasalları üreticileri için yalnızca formül değil; sahada çalışan, üretilebilir ve ticari karşılığı olan çözümler geliştirir.",
     "primary": "Projenizi Anlatın",
     "secondary": "Nasıl Çalışıyoruz?",
     "metrics": [["Firmaya özel", "Hazır reçete değil"], ["Gizlilik odaklı", "Bilginiz size özel"], ["Üretim uyumlu", "Laboratuvardan sahaya"]],
@@ -24,12 +24,12 @@
     "footer": "Yapı kimyasallarında reçete geliştirme, üretim ve optimizasyon danışmanlığı."
   },
   "en": {
-    "title": "ReçeteLab | Construction Chemicals Formulation Consulting",
-    "description": "ReçeteLab provides product development, formulation optimization, cost engineering and production troubleshooting for construction chemical manufacturers.",
+    "title": "ReceteLab | Construction Chemicals Formulation Consulting",
+    "description": "ReceteLab provides product development, formulation optimization, cost engineering and production troubleshooting for construction chemical manufacturers.",
     "nav": ["Services", "Product Groups", "Process", "Why Us?", "Contact"],
     "kicker": "Construction Chemicals • Formulation • Production • Optimization",
     "h1": "Increase performance.|Reduce cost.|Strengthen production.",
-    "hero": "ReçeteLab develops more than formulas for construction chemical manufacturers: practical, scalable and commercially viable solutions that work in real production.",
+    "hero": "ReceteLab develops more than formulas for construction chemical manufacturers: practical, scalable and commercially viable solutions that work in real production.",
     "primary": "Tell Us About Your Project",
     "secondary": "How We Work",
     "metrics": [["Tailor-made", "No generic formulas"], ["Confidential", "Your know-how stays yours"], ["Production-ready", "From lab to plant"]],
@@ -48,12 +48,12 @@
     "footer": "Formulation, production and optimization consulting for construction chemicals."
   },
   "ar": {
-    "title": "ReçeteLab | استشارات تطوير تركيبات كيماويات البناء والخلطات الجافة",
+    "title": "ReceteLab | استشارات تطوير تركيبات كيماويات البناء والخلطات الجافة",
     "description": "استشارات هندسية لتطوير وتحسين تركيبات كيماويات البناء والخلطات الجافة، وخفض التكلفة، وحل مشكلات الإنتاج، ودعم التشغيل الصناعي.",
     "nav": ["الخدمات", "مجالات الخبرة", "المنهجية", "مركز المعرفة", "تواصل معنا"],
     "kicker": "كيماويات البناء • تطوير التركيبات • الخلطات الجافة • الإنتاج",
     "h1": "طوّر الأداء.|اخفض التكلفة.|ثبّت جودة الإنتاج.",
-    "hero": "تطوّر ReçeteLab حلولاً هندسية قابلة للتطبيق الصناعي لمصنّعي كيماويات البناء، من تطوير التركيبة وتحسينها إلى استقرار العملية على خط الإنتاج.",
+    "hero": "تطوّر ReceteLab حلولاً هندسية قابلة للتطبيق الصناعي لمصنّعي كيماويات البناء، من تطوير التركيبة وتحسينها إلى استقرار العملية على خط الإنتاج.",
     "primary": "شاركنا تفاصيل مشروعك",
     "secondary": "تعرّف على منهجية العمل",
     "metrics": [["حلول مصممة لاحتياجاتكم", "وليست تركيبات جاهزة للجميع"], ["سرية وملكية محفوظة", "تبقى بياناتكم ومعلوماتكم ملكاً لكم"], ["قابلة للتطبيق الصناعي", "من المختبر إلى خط الإنتاج"]],
